@@ -1,0 +1,28 @@
+Setup,
+Execute
+Assert
+
+assert(expected,actual,message)
+
+@BeforeEach
+@AfterEach
+
+
+ @BeforeAll // for database connections, server connections - must be static
+@AfterAll // to release connections - must be static
+
+
+Custom Display Name
+@DisplayNameGeneration(DisplayNameGenerator.Simple.class)
+1. Simple
+2. RemoveUnderscore
+3. Indicative
+
+
+assertSame
+assertNotSame
+
+assertTrue
+assertFalse
+
+
