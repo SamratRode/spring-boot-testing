@@ -25,4 +25,8 @@ assertNotSame
 assertTrue
 assertFalse
 
+assertArrayEquals -> deep
+assertLinesMatch -> checks whether the contents are same
+
+
 
